@@ -51,6 +51,17 @@
 		margin: 0 0 2.25em 0;
 	}
 
+	p.signature {
+		 text-align: center;
+		 color:#ca4c9e;
+  	 font:'Cookie', Helvetica, sans-serif;
+	}
+
+	div.signature {
+		padding-left: 80%;
+		position:relative;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #777;
 		font-weight: 700;
