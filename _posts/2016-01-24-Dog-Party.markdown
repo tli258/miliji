@@ -1,0 +1,15 @@
+---
+title:  "Dog Party"
+subtitle: "Dog Party"
+author: "Li"
+avatar: "images/avatar_li.png"
+date:   2016-01-24 16:12:30
+layout: post
+---
+<img src="{{ site.baseurl }}/images/pic_miumiu_1.jpg">
+We brought MiuMiu to visit our friends' puppy Binley.
+They seems like bonding so sweet.
+ <br>But actually, they were fighting since they met.
+<!--break-->
+<img src="{{ site.baseurl }}/images/pic_miumiu_2.jpg">
+MiuMiu, he likes all the food.
