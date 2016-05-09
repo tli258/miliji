@@ -4,6 +4,8 @@ subtitle: "Dog Party"
 author: "Li"
 avatar: "images/avatar_li.png"
 date:   2016-01-24 16:12:30
+categories:
+- Random
 layout: post
 ---
 <img src="{{ site.baseurl }}/images/pic_miumiu_1.jpg">

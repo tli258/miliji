@@ -2,72 +2,33 @@
 layout: default
 ---
 
+<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    {% for post in site.posts %}
+        <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
+                    <meta itemprop="datePublished" content="{{post.date}}">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        <span class="day">
+                            {{ post.date | date: "%d" }}
+                        </span>
+                        <span class="month-year">
+                            {{ post.date | date: "%B %Y" }}
+                        </span>
+                    </time>
+                </a>
+                <div class="content">
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
+                    <p class="description">
+                        {{ post.content | strip_html | truncatewords:40 }}
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
+                    </p>
 
-
-<!-- One -->
-    <section id="one">
-        <div class="container">
-            <header class="major">
-                <h2>This Blog is About</h2>
-                <p>A little girl and her incredibly ordinary life.</p>
-            </header>
-            <p>Hello❤
-          <br>My name is Tanya Li. <br>
-          I am a Libra girl currently live in the heart of Toronto.
-          <br>I am happly married to my charming Gemini husband Mr Ji.<br>
-          <br>We also have a handsome samoyed called MiuMiu, as our companion.
-          <br>He is a half Taurus and half Gemini dog.(⊙v⊙) <br>
-          <br>There have been so much things going on in our life. I would love to share some of the exciting moments with you.<br>
-          <br>Welcom to Miliji☻ <br>
-          <br>Please have fund and enjoy it♬<br></p>
-          <div class="signature" align="right">
-            <p class="signature">
-              <br>❤XOXO
-              <br>Love U
-              <br>Tanya
-            </p>
-          </div>
-        </div>
-    </section>
-
-<!-- Two -->
-    <section id="two">
-        <div class="container">
-            <h3>Things I Do</h3>
-            <p>I have a lots of hobbies and interests. But seriously on a daily basis though, these are the things I do a lot.</p>
-            <ul class="feature-icons">
-                <li class="fa-code">Learning to code</li>
-                <li class="fa-book">Read books and stuff</li>
-                <li class="fa-coffee">Drink much tea</li>
-                <li class="fa-cart-plus">Shopping</li>
-                <li class="fa-play-circle">Watch TV shows</li>
-                <li class="fa-instagram">Take selfie</li>
-            </ul>
-        </div>
-    </section>
-
-<!-- Three -->
-    <section id="three">
-        <div class="container">
-            <h3>Recent Blog Updates</h3>
-            <div class="features">
-                {% for post in site.posts limit:2 %}
-                <article>
-                    <section class="excerpt">
-                        <header>
-                            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-                        </header>
-
-                        {{ post.content | split:'<!--break-->' | first }}
-                    </section>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
-                        </ul>
-                    </footer>
-                    <div class="clear"></div>
-                </article>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                            <a href="{{ baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+        </article>
+    {% endfor %}
+</main>

@@ -4,6 +4,8 @@ subtitle: "Gala in Toronto"
 author: "Li"
 avatar: "images/avatar_li.png"
 date:   2016-01-29 22:30:30
+categories:
+- Random
 layout: post
 ---
 <img src="{{ site.baseurl }}/images/pic_springfestival_1.jpg">

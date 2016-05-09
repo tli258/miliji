@@ -3,9 +3,13 @@ title:  "Disney Orlando❤
 <br>Stop1 @Epcot"
 subtitle: "Disney Orlando"
 author: "Li"
-avatar: "images/avatar_li.png"
 date:   2015-05-18 21:45:30
 layout: post
+categories:
+- Travel
+tags:
+- Travels
+
 ---
 Welcome to Disney World!
 <br>Hotel: Walt Disney World Dolphin Hotel

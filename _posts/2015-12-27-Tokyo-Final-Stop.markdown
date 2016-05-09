@@ -5,6 +5,10 @@ author: "Li"
 avatar: "images/avatar_li.png"
 date:   2015-12-27 16:18:23
 layout: post
+categories:
+- Travel
+tags:
+- Travels
 ---
 <img src="{{ site.baseurl }}/images/pic_ginza_2.jpg">
 第③站东京美食综合篇：东京银座，涩谷，sky tree. 最后了嘛，已是游魂状态了(҈ ˃̶̤́ ꒳ ˂̶̤̀ )҈ 就写一点小心得啦！①Shiseido的咖啡厅：身为化妆品的她，居然有一家自己的楼，专门吃饭用的！我们去的是她家的咖啡厅，甜品什嚒的特别精美，而且超级多！吃完都不用吃晚饭了Face throwing a kissFace throwing a kiss由于那天是圣诞夜，还有小提琴Violin表演喔！

@@ -5,6 +5,10 @@ author: "Li"
 avatar: "images/avatar_li.png"
 date:   2015-12-24 23:02:07
 layout: post
+categories:
+- Travel
+tags:
+- Travels
 ---
 <img src="{{ site.baseurl }}/images/pic_fuji_1.jpg">
 第②站：河口湖～富士山Mount FujiHeavy plus sign温泉Hot springs✧⁺⸜(●˙▾˙●)⸝⁺✧ 特别美好喔！虽然只在富士山周围待了1小晚，但感觉很舒服！日式烤肉很香啊！虽然牛肉确实很贵，不过口感是超级嫩的(ૢ˃ꌂ˂⁎)住宿的是有自带小温泉Hot springs滴～日本的温泉都是分男女汤池的，所以这种在自己房间后面的小Hot springs温泉就很自在啦！早餐也是自带的，传统日式早餐。小吃小碟的，却很饱GhostGhost不过还是喜欢北美的早餐或港式早茶啊！Face throwing a kissFace throwing a kiss Black heart (cards)︎
