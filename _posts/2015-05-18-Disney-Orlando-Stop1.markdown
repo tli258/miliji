@@ -11,7 +11,7 @@ tags:
 - Travels
 
 ---
-Welcome to Disney World!
+<b>Welcome to Disney World@ Epcotღ</b>
 <br>Hotel: Walt Disney World Dolphin Hotel
 <img src="{{ site.baseurl }}/images/pic_hotel_1.jpg">
 
@@ -20,7 +20,7 @@ Welcome to Disney World!
 <img src="{{ site.baseurl }}/images/pic_hotel_2.jpg">
 
 <img src="{{ site.baseurl }}/images/pic_epcot_1.jpg">
-STOP1 :EPCOT
+
 <img src="{{ site.baseurl }}/images/pic_epcot_2.jpg">
 
 <img src="{{ site.baseurl }}/images/pic_epcot_3.jpg">
